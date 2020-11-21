@@ -13,8 +13,19 @@ This script reinits data directory and performs same steps:
 
 Usage
 -----
+First step: access to /etc/mysql folder and open my.cnf file with the next command:
 
-Just download it and run with superuser privileges:
+    sudo nano my.cnf
+
+Second step: add the next code lines 
+
+    [mysqld]
+    lower_case_table_names = 1
+    bind-address = 0.0.0.0
+
+Third step: Go to /home/{username}/ folder and clone this repository
+
+Finnaly step: run the next scrip
 
     sudo ./ubuntu-reinit-mysql
 
