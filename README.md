@@ -25,7 +25,7 @@ Second step: add the next code lines
 
 Third step: Go to /home/{username}/ folder and clone this repository
 
-Finnaly step: run the next scrip
+Finnaly step: run the script
 
     sudo ./ubuntu-reinit-mysql
 
